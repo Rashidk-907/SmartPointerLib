@@ -96,4 +96,4 @@ template <typename T, typename arg>
 SharedPtr<T> MakeShared(arg value)
 {
     return SharedPtr<T>(new T(value));
-}
+} 
