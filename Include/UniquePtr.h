@@ -2,7 +2,7 @@ template <typename T>
 class UniquePtr
 {
 private:
-    T *pointer;
+    T *pointer; 
 
 public:
     UniquePtr(T *ptr = nullptr) : pointer(ptr) {}
