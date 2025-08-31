@@ -5,7 +5,7 @@ A modern C++ implementation of smart pointers for educational purposes.
 ## Features
 - ✅ `Unique_Ptr` - Exclusive ownership
 - ✅ `Shared_Ptr` - Shared ownership with reference counting  
-- ✅ `Weak_Ptr` - Non-owning references
+- ✅ `Weak_Ptr` - Non-owning references (coming soon)
 - ✅ Factory functions (`MakeUnique`, `MakeShared`)
 - ✅ Exception safety guarantees
 - ✅ STL-compatible interface
