@@ -88,7 +88,26 @@ public:
     {
         return ctrl ? ctrl->ptr : nullptr;
     }
+    // Add these to your SharedPtr class
+    bool operator==(const SharedPtr &other) const
+    {
+        return ctrl == other.ctrl;
+    }
 
+    bool operator!=(const SharedPtr &other) const
+    {
+        return ctrl != other.ctrl;
+    }
+
+    bool operator==(std::nullptr_t) const
+    {
+        return ctrl == nullptr;
+    }
+
+    bool operator!=(std::nullptr_t) const
+    {
+        return ctrl != nullptr;
+    }
     ~SharedPtr() { cleanup(); }
 };
 
@@ -96,4 +115,4 @@ template <typename T, typename arg>
 SharedPtr<T> MakeShared(arg value)
 {
     return SharedPtr<T>(new T(value));
-} 
+}
