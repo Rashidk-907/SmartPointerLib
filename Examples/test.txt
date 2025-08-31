@@ -1,0 +1,2 @@
+Hello, Smart Pointers!
+This is automatic resource management.
