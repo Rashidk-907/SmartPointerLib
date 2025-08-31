@@ -1,5 +1,5 @@
 #include <iostream>
-#include "D:\Coding\Github\Smart Pointers\Include\SharedPtr.h"
+#include "Include\SharedPtr.h"
 
 using namespace std;
 

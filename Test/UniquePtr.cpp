@@ -1,6 +1,6 @@
 #include <iostream>
 #include <assert.h>
-#include "Smart Pointers\Include\UniquePtr.h"
+#include "Include\UniquePtr.h"
 
 using namespace std;
 
